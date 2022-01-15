@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: shuimo
+  m_Shader: {fileID: 4800000, guid: 7e01ce66339497f47be835e4201ee7fa, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 0e5d5995d1188d043a094406dc86b594, type: 3}
+        m_Scale: {x: 1.09, y: 0.68}
+        m_Offset: {x: 0.51, y: 0.83}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _FresIntensity: 47.6
+    - _NoiseIntensity: 40.1
+    - _NoiseScale: 18
+    - _RimBias: -0.35
+    - _RimIntensity1: 2.03
+    - _RimMax1: 0.3
+    - _RimMin1: 0
+    - _RimPow: 7.3
+    - _RimPow1: 0.46
+    - _RimScale: 12.5
+    - _RimScale2: 0
+    - __dirty: 0
+    m_Colors:
+    - _InnerCol: {r: 1, g: 0.7601078, b: 0.7601078, a: 0}
+    - _InnerColor1: {r: 0.103773594, g: 0.054404214, b: 0.054404214, a: 0}
+    - _MainColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
+    - _OutCol: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 0}
+    - _RimColor1: {r: 0.11320752, g: 0.09459388, b: 0.09459388, a: 0}
+  m_BuildTextureStacks: []
